@@ -1,7 +1,6 @@
 ---
 title: "Danoli English School"
-subtitle: WebComm project
-format: 
+subtitle: [](https://akushnir11.github.io/eng-school/)
   revealjs:
     theme: beige          
     transition: slide    
