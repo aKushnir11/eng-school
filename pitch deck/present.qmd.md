@@ -1,6 +1,6 @@
 ---
 title: "Danoli English School"
-subtitle: [](https://akushnir11.github.io/eng-school/)
+subtitle: "https://akushnir11.github.io/eng-school/"
   revealjs:
     theme: beige          
     transition: slide    
