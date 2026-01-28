@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"> </script>
+</head>
+  <body onload="checkCookie()"  >  
+     <div class="banner">
+        <p class="greetings-text" id="greetings-text">
+            Welcome <span id="username"></span>!
+        </p>
+    </div>
+<header>
+     <nav id="navbar">
+        <div class="container">
+                <div class="nav-menu">
+                    <a href="/" class="nav-logo"> 
+                        <img src="images/IMG_1849.jpg" alt="logo" class="logo-image">
+                     </a>
+
+                    <div class="nav-links" id="nav-links">
+                            <a href="" class="nav-link"> Home </a>
+                            <a href="#skills" class="nav-link"> Skills </a>
+                            <a href="#about-us" class="nav-link"> About Us </a>
+                            <a href="#our-team" class="nav-link">Our Team </a>
+                            <a href="#reviews" class="nav-link"> Reviews </a>
+                            <a href="#pricing" class="nav-link"> Pricing & Terms </a>
+                            <a href="#contacts" class="nav-link">Contacts </a>  
+                    </div>
+                        <a href="ua.html" class="language-button"> UA </a> 
+                        <!--  <button id="change-language" class="language-button"> Ua </button>-->
+                         <a href="javascript:void(0);" class="hamburger" id="hamburger" onclick="myFunction()">
+                                <i class="bi bi-list"></i></a>
+                         
+                </div>
+        </div>
+    </nav>
+</header>
+
+<section>
+        <div class="container"> 
+            <div class="hero"> 
+                <div class="hero-text"> 
+                    <h1> Your Journey to <span class="fluency">Fluency</span> Starts Here.</h1>
+                    <p class="text"> Comfortable conditions, experienced teachers and great results!</p>
+                    <a href="#contacts" class="button-book"> book a trial lesson </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+    <div class="container">
+        <h2> Skills </h2>
+        <div class="skills-container"> 
+
+            <div class="skill"> 
+                <img src="images/100766.png" alt="speaking" class="icon">
+                <h3 class="card-title"> Speaking </h3> 
+                <p class="skills-description"> Practise speaking confidently in real-life situations and improve your fluency.</p> 
+            </div>
+            
+            <div class="skill"> 
+                <img src="images/4534835.png" alt="listening" class="icon">
+                <h3 class="card-title">Listening</h3> 
+                <p class="skills-description"> Understand conversations, videos and audios with ease and accuracy.</p> 
+            </div>
+
+            <div class="skill"> 
+                <img src="images/writing-icon-4.png" alt="writing" class="icon">
+                <h3 class="card-title"> Writing</h3>
+                <p class="skills-description"> Learn to write clearly, correctly, and creatively for different purposes.</p>
+            </div>
+
+            <div class="skill"> 
+                <img src="images/reading-icon.png" alt="reading" class="icon">
+                <h3 class="card-title">Reading</h3> 
+                <p class="skills-description"> Read and understand texts of all kinds, from articles to stories.</p>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <section id="about-us">
+        <div class="container">
+            <h2 >About Us</h2>
+            <div class="about-us"> 
+                
+                    <p class="about-us-text"> Founded by Ilona Danysh, our school is built on a foundation of academic excellence and extensive field experience. With both a Bachelor’s and a Master’s degree specializing in English Language Teaching, Ilona has dedicated years to the field of education. After gaining valuable experience in various public schools and kindergartens, she decided to create a modern, digital space where students could learn English comfortably and without stress.<br> <br>  In this way, we combine traditional pedagogy with a modern, more flexible approach that suits everyone. Our students have the opportunity to learn effectively and interactively, wherever they are. Real communication, practical skills, and constant support are the cornerstones of our lessons.
+We ensure that learning is clear, engaging, and tailored to each student’s individual goals. Our qualified and experienced teachers create a stimulating environment, adapting to any objective you may have. <br> <br> Whether you are studying for work, travel, or personal development, we are here to guide you every step of the way. </p>
+                
+                <div class="about-us-image_wrp">
+                    <img src="images/IMG_3703.JPG" alt=rapresentative_img class="about-us-image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="our-team">
+        <div class="container">
+            <h2 >Our Team</h2>
+            <div class="our-team"> 
+                <div class="teachers"> 
+                     <img src="images/IMG_3663.JPG" alt=Ilona class="teacher-img">
+                     <h3 class="name">Ilona <br> Founder</h3>
+                     <p class="teacher-description"> As a school owner and a certified educator, I’ve spent the last 4 years helping students of all ages master English. 
+                        I’m truly in love with what I do and always focus on real results. 
+                        My goal is to make every lesson a source of inspiration and growth, ensuring that learning is as exciting as it is beneficial. 
+                        Let’s turn your progress into a motivating journey together!
+                    </p>
+                </div>
+                <div class="teachers"> 
+                    <img src="images/IMG_1.jpg" alt=Sofia class="teacher-img">
+                    <h3 class="name">Sofia <br> Teacher</h3>
+                    <p class="teacher-description">
+                    I handle a wide variety of requests, from job interview preparation to relocating abroad. 
+Each lesson is tailored to your specific goals and interests. 
+We focus on authentic phrases and practical grammar, learning only what you’ll actually use in real life.
+Our sessions are filled with humor and real-life conversations, making the learning process a genuine pleasure. 
+I’m not the kind of teacher who forces you to study; 
+I’m the one who supports you at the right moment and shows you the path to your goals.
+                    </p>
+                </div>
+                <div class="teachers">
+                    <img src="images/IMG_2.jpg" alt=Sofia class="teacher-img">
+                    <h3 class="name">Sofia <br> Teacher</h3>
+                    <p class="teacher-description"> I’m Sophia, and I help adults and teens fall in love with English by making the learning process easy and exciting. 
+                        Having worked with students of all ages and levels, I know how to find a personal connection with everyone.
+In our lessons, we’ll talk about the things you love, dive into trending vocabulary, and tackle grammar from the basics to the most advanced levels. 
+My goal is to show you that English is vibrant, fun, and accessible to everyone. 
+Together, we’ll break through the language barrier and master the real-life English people actually use!
+                    </p>
+                </div>
+                <div class="teachers">
+                    <img src="images/IMG_3.jpg" alt=Anna class="teacher-img">
+                    <h3 class="name">Anna-Maria <br> Teacher</h3>
+                    <p class="teacher-description">
+Hello! My name is Anna. I’ve visited more than 10 countries around the world, including the USA. 
+So get ready to travel the world with me. 
+Also I specialize in Legal English so don’t be surprised if I turn our lesson into real detective story.  
+I love making my lessons fun and interactive, because I believe learning English should never be boring. 
+You’ll speak, play, and explore the world through English with me.
+Let’s learn, laugh, and discover new things together! 
+I’m here to help you speak English confidently and enjoy every minute of the process.
+                    </p>
+                </div>  
+                    
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2> What our students say</h2>
+       
+   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/re1.jpg" class="d-block w-100" alt="review 1">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/re2.PNG" class="d-block w-100" alt="review 2">
+    </div>
+    <div class="carousel-item">
+      <img src="images/re3.jpg" class="d-block w-100" alt="review 3">
+    </div>
+    <div class="carousel-item">
+      <img src="images/re4.PNG" class="d-block w-100" alt="review 4">
+    </div>
+     <div class="carousel-item">
+      <img src="images/re5.PNG" class="d-block w-100" alt="review 5">
+    </div>
+     <div class="carousel-item">
+      <img src="images/re6.PNG" class="d-block w-100" alt="review 6">
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"><!--Previous--></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"><!--Next--></span>
+  </button>
+    </div>
+  </div>
+</section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="pricing">
+                <div class="lesson-price"> 
+                    <img src="images/individual.png" alt="student" class="student-image">
+                    <h3> Individual classes</h3> <p> include:</p> 
+                    <ul>
+                        <li>Tailor-made curriculum </li>
+                        <li>Flexible scheduling </li>
+                        <li>Focused speaking practise</li>
+                        <li>Targeted exam preparation </li>
+                        <li>Personalized feedback</li>
+                    </ul>
+                    <br>
+                    <p class="price">500UAH / 10EUR</p>
+                </div>
+
+                <div class="lesson-price">
+                    <img src="images/group.png" alt="students" class="student-image">
+                    <h3> Group classes</h3>
+                    <p> include:</p>
+                    <ul>
+                        <li>Interactive group disucssions </li>
+                        <li>Role-play activities </li>
+                        <li>Collaborative projects </li>
+                        <li>Shared learning experience </li>
+                        <li>Dynamic social atmosphere </li>
+                    </ul>
+                    <br>
+                    <p class="price">350UAH / 7EUR</p>
+                </div>
+            
+            </div>
+            <div >
+                <h2> Terms and Conditions of Study</h2>
+                <h3> General Lesson Policies</h3>
+                <ul class="policies">
+                    <li> <span class="aspect"> Format:</span> lasses are conducted online via Google Meet or Zoom according to a pre-arranged schedule. </li>
+                    <li> <span class="aspect"> Duration:</span> each session lasts 55 minutes (extensions are possible by mutual agreement). </li>
+                    <li> <span class="aspect"> Interaction:</span> we highly recommend keeping your camera and microphone on to ensure effective engagement.</li>
+                    <li> <span class="aspect"> Cancellation: </span>notice of cancellation must be provided at least 3 hours before the lesson starts. Otherwise, the session will be charged in full.</li>
+
+                </ul>
+                <h3>Rights and Obligations </h3>
+                <div class="pricing">
+                    <div class="lesson-price"> 
+                        <p class="aspect"> Student’s Responsibilities</p> 
+                        <ul class="responsabilities">
+                            <li> Regular attendance and punctuality.</li>
+                            <li> Notice: providing advance notice for any absences.</li>
+                            <li> Active Participation: interacting, asking questions, and completing tasks.</li>
+                            <li> Preparation: completing homework to ensure better material retention.</li>
+                            <li> Accountability: taking initiative and responsibility for learning results.</li>
+                        </ul>
+                </div>
+
+                <div class="lesson-price">
+                    <p class="aspect">Teacher’s Responsibilities </p>
+                    <ul class="responsabilities">
+                        <li>Preparation: creating meaningful and engaging lessons.</li>
+                        <li>Individual Approach: tailoring lessons to each student's level and needs. </li>
+                        <li>Feedback: providing updates on progress and areas for improvement. </li>
+                        <li> Environment: maintaining a friendly and comfortable learning atmosphere.</li>
+                        <li> Development: constantly improving teaching skills and methodologies.</li>
+                    </ul>
+                </div>
+            
+            </div> 
+            </div>
+
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="container">
+            <div class="contact-us"> 
+                <div class="contact-us-image_wrp">
+                    <img src="images/IMG_3600.JPG" alt="image" class="contact-us-image">
+                </div>
+                <div class="contact-us-text"> 
+                    <h2>Contact Us</h2>
+                    <p class="contact-text"> Fill out the form and Danoli School will contact you within 24 hours to set up your trial lesson! </p> 
+                    
+                    <form action="https://formsubmit.co/alina.kushni@gmail.com" method="POST" class="form" id="myform" onsubmit="return validateForm();"> 
+                        
+                            <label for="name" class="form-label" >Full name </label>
+                            <input id="name" type="text"  name="fullname" >
+                            <span class="error-message" id="error-name"> </span> <br>
+                        
+                        
+                            <label for="email" >Email </label>
+                            <input type="email" id="email" name="email">
+                            <span class="error-message" id="error-email"> </span> <br>
+                        
+                        
+                            <label for="level">Estimated English level:</label>
+                            <select id="level" name="level">
+                                <option value="" disabled selected> Select your level</option>
+                                <option value="beginner"> Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select>
+                            <span class="error-message" id="error-level"> </span> <br>
+                        
+                        
+                            <label for="goal" >Learning goal</label>
+                            <input id="goal" type="text" name="goal" >
+                            <span class="error-message" id="error-goal"> </span> <br>
+                        
+                        
+                            <label>Preferred time slot: </label> <br>
+                            
+                                <input type="checkbox" id="time-morning" name="time_slots" value="morning">
+                                <label for="time-morning">Morning</label> <br>
+                           
+                                <input type="checkbox" id="time-afternoon" name="time_slots" value="afternoon">
+                                <label for="time-afternoon">Afternoon</label> <br>
+                            
+                                <input type="checkbox" id="time-evening" name="time_slots" value="evening">
+                                <label for="time-evening">Evening</label> <br>
+                           
+                            <span class="error-message" id="error-time"> </span>
+                        
+                        <div class="button-submit">
+                            <button type="submit" class="language-button"> 
+                            Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer> 
+            <div class="social-network">
+                  <div>
+                    <!--<h3>Social Network</h3> -->
+                    <p> 
+                    Instagram <a href="https://www.instagram.com/danoli_school/" target="_blank" aria-label="instagram"> 
+                    <i class="bi bi-instagram"></i> </a> 
+                    Tik Tok <a href="https://www.tiktok.com/@danoli_english_school?_r=1&_t=ZN-931GIMumgRa" target="_blank" aria-label="tiktok"> 
+                    <i class="bi bi-tiktok"></i> </a> 
+                    Facebook <a href="https://www.facebook.com/share/1GEhM2qA1Y/?mibextid=LQQJ4d" target="_blank" aria-label="facebook"> 
+                    <i class="bi bi-facebook"></i> </a>
+                    </p> 
+                </div>
+                <!-- 
+                <div class="join-us-image_wrp">
+                    <img src="images/IMG_3600.JPG" alt="image" class="join-us-image">
+                </div> -->
+
+            </div>     
+    </footer>     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
