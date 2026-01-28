@@ -5,7 +5,7 @@ This project is a landing page for an online English school.
 **HTML5:** semantic structure.  
 **CSS3:** styling.  
 **JavaScript (ES6):** for cookies and form validation.  
-**Bootstrap 5:**  
+**Bootstrap 5:** for carousel and icons.
 
 **Organization**  
 - index.htnl
