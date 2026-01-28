@@ -1,10 +1,12 @@
 # Danoli English School
 This project is a landing page for an online English school.
+
 **Tools**  
-**HTML5:** Semantic structure for SEO and accessibility.  
-**CSS3:** Custom styling with Flexbox and Grid layouts.  
-**JavaScript (ES6):** Logic for cookies, form validation, and DOM manipulation.  
+**HTML5:** semantic structure.  
+**CSS3:** styling.  
+**JavaScript (ES6):** for cookies and form validation.  
 **Bootstrap 5:**  
+
 **Organization**  
 - index.htnl
 - script.js
